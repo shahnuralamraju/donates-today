@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins";
+}
+
+/* general classes */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.primary-btn {
+    background: rgb(63, 11, 136);
+    color: white;
+    margin: 8px 0;
+    font-size: 16px;
+    padding: 20px 55px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.4s;
+    border-radius: 35px;
+}
+
+/* general text classes  */
+.primary-text {
+    font-size: 55px;
+    text-align: center;
+    margin: 20px 0 10px 0;
+}
+
+.secondary-text {
+    margin: 15px 0;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.secondary-text-p {
+    padding: 3px 18%;
+}
+
+.color-primary {
+    color: rgb(63, 11, 136);
+}
+
+.color-white {
+    color: white;
+}
+
+.color-dark {
+    color: rgba(44, 43, 43, 0.611);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+/* for background  */
+.bg-primary{
+    background: rgb(203 248 209);
+}
+.bg-secondary{
+    background-color: #93e4ed82;
+}
+.bg-tertiary{
+    background-color: #b500ff1a;
+}
+
+/* for margin  */
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+.mt-5 {
+    margin-top: 38px;
+}
+
+.my-5 {
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+/* ............... */
+
+/* hero section classes */
+.hero {
+    width: 100%;
+    height: 90vh;
+    background:  linear-gradient(180deg, rgba(161, 128, 170, 0.499) 20%, rgba(6, 182, 118, 0.997) 90%),
+                url('./images/donation7.jpg') no-repeat center center / cover;
+    /* background:  linear-gradient(180deg, rgba(39, 21, 44, 0.221541) 20%, rgba(9,9,144,1) 90%),
+                url('./images/donation1.jpg') no-repeat center center / cover; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero>div {
+    height: 50%;
+    width: 65%;
+}
+
+.hero_primary_text {
+    text-align: center;
+    font-size: 65px;
+    color: white;
+}
+
+/* ............. */
+
+/* classes for donates today section  */
+.donates-container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.amount-container {
+    width: 65%;
+    margin: 40px auto;
+    font-size: 20px;
+}
+
+.amount-card {
+    width: 18%;
+    padding: 35px;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    color: rgba(44, 43, 43, 0.611);
+    background-color: rgba(243, 243, 243, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+}
+
+.amount-card_active, .amount-card:hover {
+    border: 3px solid rgba(63, 11, 136, 0.767);
+    color: rgba(63, 11, 136, 0.766);
+    background-color: rgba(157, 198, 248, 0.248)
+}
+
+.donate-input {
+    color: rgba(63, 11, 136, 0.766);
+    width: 100%;
+    height: 50px;
+    font-size: 22px;
+    outline: none;
+    border-bottom: 3px solid gray;
+    text-align: center;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-bottom: 30px;
+}
+
+.donate-input:focus {
+    border-color: rgb(63, 11, 136);
+}
+
+
+/* .............  */
+/* donates plan container classes  */
+.card {
+    width: 32%;
+    margin-bottom: 2rem;
+    padding: 40px 30px;
+    border-radius: 22px;
+}
+.card:hover{
+    box-shadow: 4px 6px 8px rgba(170, 178, 180, 0.368);
+}
+
+.card-icon {
+    margin: 20px 0;
+    width: 70px;
+    height: 70px;
+
+}
+
+.card-icon>img {
+    width: 100%;
+    height: 100%;
+}
+
+.card-text {
+    font-size: 26px;
+}
+
+/* .........  */
+
+/* our updates section classes  */
+.update-main_container {
+    width: 65%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 50px auto;
+    background: rgb(203 248 209);
+}
+
+.update-sub_container {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.update-input {
+    width: 75%;
+    height: 100%;
+    font-size: 18px;
+    padding: 0 10px;
+    border-radius: 8px 0 0 8px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 0px solid;
+    outline: none;
+    border-color: rgb(63, 11, 136);
+}
+
+.update-input:focus {
+    border-bottom: 3px solid rgb(63, 11, 136);
+}
+
+.update-btn {
+    cursor: pointer;
+    border-radius: 0 8px 8px 0;
+    background-color: rgb(63, 11, 136);
+    color: white;
+    height: 100%;
+    width: 25%;
+    font-size: 18px;
+    border: none;
+    font-weight: 500;
+}
+
+/* .......... */
+/* footer  */
+.footer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 250px;
+    background-color: rgb(63, 11, 136);
+    color: white;
+}
+.footer-main_text{
+    font-family: "Luckiest Guy";
+    color: rgb(142, 247, 133);
+    font-size: 40px;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
