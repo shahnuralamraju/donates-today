@@ -12,6 +12,7 @@ body {
 html{
     scroll-behavior: smooth;
 }
+ 
 /* general classes */
 .container {
     width: 80%;
@@ -132,6 +133,18 @@ html{
     color: white;
 }
 /* ............. */
+/* arrow classes  */
+.arrow-container{
+    font-size: 25px;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
+    color: rgb(166, 57, 255);
+    cursor: pointer;
+}
+
+/* ............  */
+
 /* classes for donates today section  */
 .donates-container {
     padding-top: 50px;
@@ -187,9 +200,9 @@ html{
     box-shadow: 4px 6px 8px rgba(170, 178, 180, 0.368);
 }
 .card-icon {
-    margin: 20px 0;
-    width: 70px;
-    height: 70px;
+    margin: 25px 0;
+    width: 60px;
+    height: 60px;
 
 }
 .card-icon>img {
@@ -203,7 +216,7 @@ html{
 /* .........  */
 /* join us classes */
 .join-us{
-    background-color: rgba(240, 248, 255, 0.863);
+    background-color: rgba(228, 241, 236, 0.263);
     padding: 50px 0;
     margin: 100px 0;
 }
@@ -215,7 +228,6 @@ html{
     width: 100%;
 }
 .join-input{
-    padding: 0 10px;
     outline: none;
     height: 50px;
     margin: 10px 0;
@@ -232,7 +244,7 @@ html{
     justify-content: center;
     margin: 60px 0;
     border-radius: 20px;
-    box-shadow: 8px 10px 12px rgba(228, 225, 225, 0.547);
+    box-shadow: 5px 5px 8px rgba(178, 176, 176, 0.547),-5px -5px 10px rgba(178, 176, 176, 0.547);
     background-color: rgb(255, 255, 255);
 }
 .form_container > h1{
