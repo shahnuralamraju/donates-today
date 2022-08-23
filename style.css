@@ -9,13 +9,21 @@
 body {
     font-family: "Poppins";
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* general classes */
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
+.w-50{
+    width: 48%;
+}
+.w-100{
+    width: 100%;
+}
 .d-flex {
     display: flex;
     flex-wrap: wrap;
@@ -57,37 +65,30 @@ body {
     text-align: center;
     margin: 20px 0 10px 0;
 }
-
 .secondary-text {
     margin: 15px 0;
     font-weight: 500;
     font-size: 18px;
 }
-
 .secondary-text-p {
     padding: 3px 18%;
 }
-
 .color-primary {
     color: rgb(63, 11, 136);
 }
-
 .color-white {
     color: white;
 }
-
 .color-dark {
     color: rgba(44, 43, 43, 0.611);
 }
-
 .text-center {
     text-align: center;
 }
-
 .text-justify {
     text-align: justify;
 }
-
+/* .......................  */
 /* for background  */
 .bg-primary{
     background: rgb(203 248 209);
@@ -107,51 +108,40 @@ body {
 .mt-5 {
     margin-top: 38px;
 }
-
 .my-5 {
     margin-top: 38px;
     margin-bottom: 38px;
 }
-
 /* ............... */
-
 /* hero section classes */
 .hero {
     width: 100%;
     height: 90vh;
-    background:  linear-gradient(180deg, rgba(161, 128, 170, 0.499) 20%, rgba(6, 182, 118, 0.997) 90%),
-                url('./images/donation7.jpg') no-repeat center center / cover;
-    /* background:  linear-gradient(180deg, rgba(39, 21, 44, 0.221541) 20%, rgba(9,9,144,1) 90%),
-                url('./images/donation1.jpg') no-repeat center center / cover; */
+    background:  linear-gradient(180deg, rgba(160, 100, 232, 0.499) 20%, rgba(6, 182, 118, 0.997) 90%),
+                url('./images/donation0.jpg') no-repeat center center / cover;
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .hero>div {
     height: 50%;
     width: 65%;
 }
-
 .hero_primary_text {
     text-align: center;
     font-size: 65px;
     color: white;
 }
-
 /* ............. */
-
 /* classes for donates today section  */
 .donates-container {
     padding-top: 50px;
     padding-bottom: 30px;
 }
-
 .amount-container {
     width: 65%;
     margin: 40px auto;
     font-size: 20px;
 }
-
 .amount-card {
     width: 18%;
     padding: 35px;
@@ -164,13 +154,11 @@ body {
     align-items: center;
     cursor:pointer;
 }
-
 .amount-card_active, .amount-card:hover {
     border: 3px solid rgba(63, 11, 136, 0.767);
     color: rgba(63, 11, 136, 0.766);
     background-color: rgba(157, 198, 248, 0.248)
 }
-
 .donate-input {
     color: rgba(63, 11, 136, 0.766);
     width: 100%;
@@ -184,12 +172,9 @@ body {
     border-right: none;
     margin-bottom: 30px;
 }
-
 .donate-input:focus {
     border-color: rgb(63, 11, 136);
 }
-
-
 /* .............  */
 /* donates plan container classes  */
 .card {
@@ -201,25 +186,69 @@ body {
 .card:hover{
     box-shadow: 4px 6px 8px rgba(170, 178, 180, 0.368);
 }
-
 .card-icon {
     margin: 20px 0;
     width: 70px;
     height: 70px;
 
 }
-
 .card-icon>img {
     width: 100%;
     height: 100%;
 }
-
 .card-text {
     font-size: 26px;
 }
 
 /* .........  */
+/* join us classes */
+.join-us{
+    background-color: rgba(240, 248, 255, 0.863);
+    padding: 50px 0;
+    margin: 100px 0;
+}
+.join-img{
+    width: 50%;
+}
+.join-img > img{
+    height: 100%;
+    width: 100%;
+}
+.join-input{
+    padding: 0 10px;
+    outline: none;
+    height: 50px;
+    margin: 10px 0;
+    border-width: 0 0 2px 0;
+    border-color: rgb(192, 192, 193);
+    font-size: 16px;
+}
+.join-input:focus{
+    border-color: rgb(8, 6, 116);
+}
+.join-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+    border-radius: 20px;
+    box-shadow: 8px 10px 12px rgba(228, 225, 225, 0.547);
+    background-color: rgb(255, 255, 255);
+}
+.form_container > h1{
+    font-size: 45px;
+    margin: 20px 0;
+}
+.form_container{
+    width: 50%;
+    padding: 50px;
+}
 
+#text-area{
+    resize: none;
+    height: 65px;
+}
+/* .............  */
 /* our updates section classes  */
 .update-main_container {
     width: 65%;
@@ -229,7 +258,6 @@ body {
     justify-content: center;
     border-radius: 20px;
     margin: 50px auto;
-    background: rgb(203 248 209);
 }
 
 .update-sub_container {
@@ -283,8 +311,10 @@ body {
 }
 .footer-main_text{
     font-family: "Luckiest Guy";
-    color: rgb(142, 247, 133);
+    color: rgb(142, 247, 533);
     font-size: 40px;
     letter-spacing: 10px;
     margin-bottom: 20px;
 }
+
+
