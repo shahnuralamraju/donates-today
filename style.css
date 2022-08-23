@@ -9,22 +9,25 @@
 body {
     font-family: "Poppins";
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
- 
+
 /* general classes */
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-.w-50{
+.w-50 {
     width: 48%;
 }
-.w-100{
+
+.w-100 {
     width: 100%;
 }
+
 .d-flex {
     display: flex;
     flex-wrap: wrap;
@@ -66,38 +69,48 @@ html{
     text-align: center;
     margin: 20px 0 10px 0;
 }
+
 .secondary-text {
     margin: 15px 0;
     font-weight: 500;
     font-size: 18px;
 }
+
 .secondary-text-p {
     padding: 3px 18%;
 }
+
 .color-primary {
     color: rgb(63, 11, 136);
 }
+
 .color-white {
     color: white;
 }
+
 .color-dark {
     color: rgba(44, 43, 43, 0.611);
 }
+
 .text-center {
     text-align: center;
 }
+
 .text-justify {
     text-align: justify;
 }
+
 /* .......................  */
 /* for background  */
-.bg-primary{
+.bg-primary {
     background: rgb(203 248 209);
 }
-.bg-secondary{
+
+.bg-secondary {
     background-color: #93e4ed82;
 }
-.bg-tertiary{
+
+.bg-tertiary {
     background-color: #b500ff1a;
 }
 
@@ -109,17 +122,19 @@ html{
 .mt-5 {
     margin-top: 38px;
 }
+
 .my-5 {
     margin-top: 38px;
     margin-bottom: 38px;
 }
+
 /* ............... */
 /* hero section classes */
 .hero {
     width: 100%;
     height: 100vh;
-    background:  linear-gradient(180deg, rgba(160, 100, 232, 0.499) 20%, rgba(6, 182, 118, 0.997) 90%),
-                url('./images/donation0.jpg') no-repeat center center / cover;
+    background: linear-gradient(180deg, rgba(160, 100, 232, 0.499) 20%, rgba(6, 182, 118, 0.997) 90%),
+        url('./images/donation0.jpg') no-repeat center center / cover;
     background-attachment: fixed;
 }
 .hero>div {
@@ -133,7 +148,7 @@ html{
 }
 /* ............. */
 /* arrow classes  */
-.arrow-container{
+.arrow-container {
     font-size: 25px;
     position: fixed;
     bottom: 8px;
@@ -141,9 +156,7 @@ html{
     color: rgb(166, 57, 255);
     cursor: pointer;
 }
-
 /* ............  */
-
 /* classes for donates today section  */
 .donates-container {
     padding-top: 50px;
@@ -164,9 +177,10 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor:pointer;
+    cursor: pointer;
 }
-.amount-card_active, .amount-card:hover {
+.amount-card_active,
+.amount-card:hover {
     border: 3px solid rgba(63, 11, 136, 0.767);
     color: rgba(63, 11, 136, 0.766);
     background-color: rgba(157, 198, 248, 0.248)
@@ -183,7 +197,7 @@ html{
     border-top: none;
     border-right: none;
     margin-bottom: 30px;
-    caret-color:rgb(63, 11, 136);
+    caret-color: rgb(63, 11, 136);
 }
 .donate-input:focus {
     border-color: rgb(63, 11, 136);
@@ -197,7 +211,7 @@ html{
     border-radius: 22px;
     height: 400px;
 }
-.card:hover{
+.card:hover {
     box-shadow: 4px 6px 8px rgba(170, 178, 180, 0.368);
 }
 .card-icon {
@@ -212,24 +226,23 @@ html{
 }
 .card-text {
     font-size: 26px;
-    color:rgb(63, 11, 136,0.7);
+    color: rgb(63, 11, 136, 0.7);
 }
-
 /* .........  */
 /* join us classes */
-.join-us{
+.join-us {
     background-color: rgba(228, 241, 236, 0.263);
     padding: 50px 0;
     margin: 100px 0;
 }
-.join-img{
+.join-img {
     width: 50%;
 }
-.join-img > img{
+.join-img>img {
     height: 100%;
     width: 100%;
 }
-.join-input{
+.join-input {
     outline: none;
     height: 50px;
     margin: 10px 0;
@@ -237,28 +250,27 @@ html{
     border-color: rgb(192, 192, 193);
     font-size: 16px;
 }
-.join-input:focus{
+.join-input:focus {
     border-color: rgb(8, 6, 116);
 }
-.join-container{
+.join-container {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 60px 0;
     border-radius: 20px;
-    box-shadow: 5px 5px 8px rgba(178, 176, 176, 0.547),-5px -5px 10px rgba(178, 176, 176, 0.547);
+    box-shadow: 5px 5px 8px rgba(178, 176, 176, 0.547), -5px -5px 10px rgba(178, 176, 176, 0.547);
     background-color: rgb(255, 255, 255);
 }
-.form_container > h1{
+.form_container>h1 {
     font-size: 45px;
     margin: 20px 0;
 }
-.form_container{
+.form_container {
     width: 50%;
     padding: 50px;
 }
-
-#text-area{
+#text-area {
     resize: none;
     height: 65px;
 }
@@ -273,14 +285,12 @@ html{
     border-radius: 20px;
     margin: 50px auto;
 }
-
 .update-sub_container {
     height: 50px;
     display: flex;
     align-items: center;
     width: 70%;
 }
-
 .update-input {
     width: 75%;
     height: 100%;
@@ -294,11 +304,9 @@ html{
     outline: none;
     border-color: rgb(63, 11, 136);
 }
-
 .update-input:focus {
     border-bottom: 3px solid rgb(63, 11, 136);
 }
-
 .update-btn {
     cursor: pointer;
     border-radius: 0 8px 8px 0;
@@ -310,7 +318,6 @@ html{
     border: none;
     font-weight: 500;
 }
-
 /* .......... */
 /* footer  */
 .footer {
@@ -323,12 +330,11 @@ html{
     background-color: rgb(63, 11, 136);
     color: white;
 }
-.footer-main_text{
+.footer-main_text {
     font-family: "Luckiest Guy";
     color: rgb(142, 247, 533);
     font-size: 40px;
     letter-spacing: 10px;
     margin-bottom: 20px;
 }
-
-
+/* ................. */
